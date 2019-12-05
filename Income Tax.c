@@ -21,7 +21,8 @@ int main()
         tax = 1400000*7/100;
         tax = 1600000*9/100;
         tax = 1800000*11/100;
-		}
+		printf("Tax: %0.2f\n",tax);
+          }
 	else if (salary<1200000)
         {
 		printf("No Tax Applied");
